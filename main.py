@@ -2,5 +2,7 @@
 # HaromRobotEgyszer()
 # from RobotokTippelnek import EgyRobotHaromszor
 # EgyRobotHaromszor()
-from RobotokTippelnek import SokTipp
-SokTipp()
+# from RobotokTippelnek import SokTipp
+# SokTipp()
+from RobotokTippelnek import CsillagTipp
+CsillagTipp()

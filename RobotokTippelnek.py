@@ -60,4 +60,28 @@ def SokTipp():
         if tipp == szam:
             print (f"találat a(z) {tippDb}, tipp")
 
+def CsillagTipp():
+
+    i =0
+    be = ""
+    osszeg = 0
+    paratlanDb = 0
+    while be != "*":
+        be=input("egész: ")
+    if be != "*":
+        szam = int(be)
+        osszeg += szam
+        if szam % 2 ==1:
+            paratlanDb +=1
+
+    print (f"összeg: {osszeg}")
+    print (f" páratlanok száma: {paratlanDb} ")
+
+
+
+
+
+
+
+
 
