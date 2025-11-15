@@ -6,7 +6,6 @@ def HaromRobotEgyszer():
     robot1 = random.randint(1, 10)
     robot2 = random.randint(1, 10)
     robot3 = random.randint(1, 10)
-
     #debug
     # szam = 2
     # robot1 = 4
@@ -76,6 +75,19 @@ def CsillagTipp():
 
     print (f"összeg: {osszeg}")
     print (f" páratlanok száma: {paratlanDb} ")
+
+def NegySzam():
+    i = 0
+    be=""
+    minErtek = szam
+
+    while i < 3:
+        be = input("egész: ")
+        szam = int(be)
+        if szam < minErtek:
+            minErtek = szam
+    i += 1
+
 
 
 

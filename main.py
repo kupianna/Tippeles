@@ -4,5 +4,7 @@
 # EgyRobotHaromszor()
 # from RobotokTippelnek import SokTipp
 # SokTipp()
-from RobotokTippelnek import CsillagTipp
-CsillagTipp()
+# from RobotokTippelnek import CsillagTipp
+# CsillagTipp()
+from RobotokTippelnek import NegySzam
+NegySzam()
