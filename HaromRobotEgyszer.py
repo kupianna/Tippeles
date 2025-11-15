@@ -1,31 +1,25 @@
 import random
 
 def szamgeneralas():
-    szam= random.randint
-    print("Robot tippel")
-    i=0
-    while i<3:
-            robotoktippelnek()
-            ellenorzes()
-    i+= i
+    szam= random.randint(1,10)
+
+    robot1 = random.randint(1, 10)
+    robot2 = random.randint(1, 10)
+    robot3 = random.randint(1, 10)
+    nyertes=0
+    if robot1 == szam:
+       nyertes += "1. robot"
+    if robot2 == szam:
+       nyertes += "2. robot"
+    if robot3 == szam:
+        nyertes += "3. robot"
+    if robot1 and robot2 and robot3 ==szam:
+       nyertes = robot3
+    if robot1 and robot2 ==szam and robot3!=szam:
+
+    if robot1 and robot2 == szam and robot3 !=szam:
 
 
-def robotokletrehozasa():
-    print("Robotok létrehozása")
-    robot1= -1
-    robot2= -1
-    robot3= -1
+    else:
+        print ("A harmadik robot találta el!")
 
-def robotoktippelnek():
-    print("Robotok tippelnek")
-    robot1 = random.randint (1,10)
-    robot2 = random.randint(1,10)
-    robot3 = random.randint(1,10)
-
-def ellenorzes():
-    if
-    print("Ellenőrzés")
-
-
-
-def nyertes():
